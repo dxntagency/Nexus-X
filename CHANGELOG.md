@@ -4,6 +4,19 @@ Todas as mudanças relevantes do Nexus X são documentadas aqui.
 
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [2.2.0] — 2026-07-05
+
+Novo módulo de segurança e otimizações de memória mais profundas.
+
+### Adicionado
+- Verificação de Segurança: varredura rápida ou profunda que audita antivírus, firewall, processos, acesso remoto, conexões de rede, inicialização, registro, serviços, tarefas agendadas, arquivos suspeitos, USB, drivers e integridade do sistema
+- Pontuação de segurança de 0 a 100 com classificação e correção automática em um clique (reativar antivírus, firewall, remover entradas maliciosas, etc.)
+
+### Alterado
+- Otimizador de RAM agora libera também a memória em espera (standby) e o cache do sistema, resultado muito maior
+- Limpeza de cache cobre 6 fontes (Temp, Windows Update, Prefetch, shaders, etc.) com detalhamento do que será removido
+- Lista de programas de inicialização redesenhada com chave de liga/desliga
+
 ## [2.1.0] — 2026-07-05
 
 Compra de licença dentro do app e atualização obrigatória.
