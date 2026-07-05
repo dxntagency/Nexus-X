@@ -4,6 +4,20 @@ Todas as mudanças relevantes do Nexus X são documentadas aqui.
 
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [2.1.0] — 2026-07-05
+
+Compra de licença dentro do app e atualização obrigatória.
+
+### Adicionado
+- Compra de licença direto pelo app: planos Mensal (R$ 19,90) e Permanente (R$ 79,90), pagamento via Pix ou cartão de crédito, integrado ao Asaas
+- QR Code Pix com copia e cola, liberando o acesso automaticamente assim que o pagamento é confirmado
+
+### Alterado
+- Atualização deixa de ser opcional: ao detectar uma versão nova, o app mostra uma tela cheia de atualização e reinicia sozinho ao terminar
+
+### Corrigido
+- Verificação de acesso mais rigorosa para licenças em status intermediário (pendente, aguardando pagamento)
+
 ## [2.0.0] — 2026-07-04
 
 Repaginação completa do app: nova identidade visual, atualização automática e instalador mais leve.
