@@ -4,6 +4,19 @@ Todas as mudanças relevantes do Nexus X são documentadas aqui.
 
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e o projeto adota [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [2.4.0] — 2026-07-06
+
+### Adicionado
+- Tela de carregamento nova a cada abertura do app: logo, barra de progresso e leitura dos módulos, com transição suave até a interface. Também aparece ao restaurar o app da bandeja.
+- Troca de email e de senha direto em Configurações, no novo bloco "Conta e acesso". As duas ações exigem a senha atual, e a troca de email só conclui após confirmar pelo link enviado.
+
+### Melhorado
+- Tela inicial da Verificação de Segurança redesenhada: lista das 15 frentes verificadas e painel de varredura com radar animado.
+- Lista de apps de inicialização agora entra com animação em cascata e rola apenas dentro do quadro, sem rolar a página.
+
+### Corrigido
+- Configurações abria com um "flash" de conteúdo vazio antes de carregar perfil e opções; agora exibe o estado de carregamento até os dados estarem prontos.
+
 ## [2.3.0] — 2026-07-06
 
 ### Adicionado
